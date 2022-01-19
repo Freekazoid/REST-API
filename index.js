@@ -33,8 +33,8 @@ const start = async () => {
       useUnifiedTopology: true
     })
     app.listen(PORT, () => {
-      // if (!process.env.APP_DEVELOPMENT.indexOf('dev'))
-      //   opn(`http://localhost:${PORT}`);
+      if (!process.env.APP_DEVELOPMENT.indexOf('dev'))
+        opn(`http://localhost:${PORT}`);
       console.log(`Сервер запушен на порту ${PORT}!`)
     })    
   } catch (error) {
