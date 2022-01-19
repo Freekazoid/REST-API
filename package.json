@@ -1,0 +1,46 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "nodejs server MySQL test tast score web app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freekazoid/REST-API.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Freekazoid",
+  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "express",
+    "sequelize",
+    "MySQL"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.5",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "sequelize": "^6.12.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "opn": "^6.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "bugs": {
+    "url": "https://github.com/Freekazoid/REST-API/issues"
+  },
+  "homepage": "https://github.com/Freekazoid/REST-API#readme"
+}
